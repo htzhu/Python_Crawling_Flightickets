@@ -1,0 +1,48 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2016-04-06T08:38:18.329Z] GhostDriver - Main - running on port 33936
+[INFO  - 2016-04-06T08:38:19.274Z] Session [ea072970-fbd2-11e5-8b2c-b54983425cfa] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":"","javascriptEnabled":true}
+[INFO  - 2016-04-06T08:38:19.274Z] Session [ea072970-fbd2-11e5-8b2c-b54983425cfa] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-04-06T08:38:19.274Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ea072970-fbd2-11e5-8b2c-b54983425cfa
+[INFO  - 2016-04-06T08:42:35.647Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-04-06T08:45:14.712Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-04-06T08:50:14.793Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-04-06T08:55:14.891Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+l?DDate1=2016-04-19\\\", \\\"sessionId\\\": \\\"ea072970-fbd2-11e5-8b2c-b54983425cfa\\\"}\",\"url\":\"/url\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"url\",\"directory\":\"/\",\"path\":\"/url\",\"relative\":\"/url\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/url\",\"queryKey\":{},\"chunks\":[\"url\"]},\"urlOriginal\":\"/session/ea072970-fbd2-11e5-8b2c-b54983425cfa/url\"}",
+  "name": "NoSuchWindow",
+  "errorStatusCode": 23,
+  "errorSessionId": "ea072970-fbd2-11e5-8b2c-b54983425cfa",
+  "errorClassName": "SessionReqHand",
+  "errorScreenshot": "",
+  "line": 190,
+  "sourceId": 140576373271936,
+  "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+  "stack": "NoSuchWindow: Error Message => 'Currently Window handle/name is invalid (closed?)'\n caused by Request => {\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"133\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:33936\",\"User-Agent\":\"Python-urllib/2.7\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"url\\\": \\\"http://flights.ctrip.com/booking/XMN-BJS-day-1.html?DDate1=2016-04-19\\\", \\\"sessionId\\\": \\\"ea072970-fbd2-11e5-8b2c-b54983425cfa\\\"}\",\"url\":\"/url\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"url\",\"directory\":\"/\",\"path\":\"/url\",\"relative\":\"/url\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/url\",\"queryKey\":{},\"chunks\":[\"url\"]},\"urlOriginal\":\"/session/ea072970-fbd2-11e5-8b2c-b54983425cfa/url\"}\n    at :/ghostdriver/request_handlers/request_handler.js:190\n    at :/ghostdriver/request_handlers/request_handler.js:165\n    at :/ghostdriver/request_handlers/session_request_handler.js:450\n    at :/ghostdriver/request_handlers/session_request_handler.js:86\n    at :/ghostdriver/request_handlers/request_handler.js:61\n    at :/ghostdriver/request_handlers/router_request_handler.js:82",
+  "stackArray": [
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+      "line": 190
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+      "line": 165
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 450
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/session_request_handler.js",
+      "line": 86
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/request_handler.js",
+      "line": 61
+    },
+    {
+      "sourceURL": ":/ghostdriver/request_handlers/router_request_handler.js",
+      "line": 82
+    }
+  ]
+}
+[INFO  - 2016-04-06T08:43:18.427Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-04-06T08:43:18.427Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'ea072970-fbd2-11e5-8b2c-b54983425cfa', because windowless
