@@ -1,6 +1,6 @@
 # Python_Crawling_Flightickets
 
-git clone https://github.com/fankcoder/findtrip.git
+git clone https://github.com/htzhu/Python_Crawling_Flightickets.git
 
 '''
 ITEM_PIPELINES = {
